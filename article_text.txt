@@ -1,0 +1,1253 @@
+
+--- PAGE 1 ---
+THE MAXIMAL COVERING LOCATION PROBLEM
+RICHARD CHURCH
+CHARLES ReVELLE
+The Johns Hopkins University
+The belief that mathematical location modeling can identify "optimal" location
+patterns rests on the basis that some realistic objective can he identified and by some
+measure quantified.
+For example, in the area of private facilities location analysis,
+a reasonably accurate statement of the objective of locating warehouses is to mini-
+mize the costs of manufacturing and distribution.
+Since most cost elements in-
+cluded in the objectives of private facility location can be reasonably estimated,
+the models can picture with some degree of accuracy the reallocation problem they
+are designed to solve.
+Unlike private facility location ana lysis, the objectives of public facility loca-
+tion analysis are more difficult to embrace and to quantify.
+The difficulty in defin-
+ing direct measures of public objectives has resulted in a search for some surrogate
+measure with
+which
+the decision maker may
+be comfortable.
+Two different
+surrogate measures which have received attention in location models are:
+(I)
+total weighted distance or time for travel to the facilities, and (2) the distance or
+time that the user most distant from a facility would have to travel to reach that
+facility, tha t is, the maxi mal service distance,'"
+The use of a maximal service distance as a measure of the value of a given
+locational configuration has been discussed at length by Torcgas and ReVelle' who
+show thal it is an important surrogate measurement for the value of a given
+locational configuration.
+For a given location solution, the maximum distance
+which any user would have to travel to reach a facility would reflect the worst
+possible performance of the
+system.
+In the
+regional location
+of emergency
+facilities such as fire stations or ambulance dispatching stations, the concept of
+Ihe maxi mal scrv ice distance is well esta blished." 3
+The maximal service distance concept appears in the Location Set Covering
+The authors gratefully acknowledge a grant by the Ford Foundation to the Department of
+Geography and
+Environmental Engineering of
+The
+Johns
+Hopkins
+University.
+This grant
+supported the computer studies associated with this work,
+• The concept of a maximal service distance is used throughout this text, although the
+usc of a maximal service time may be equally applicable.
+, C. Torcgas und C. Revelle, "Optimal Location under Time
+01'
+Distance Constraints,"
+Papers of the Regionul Science Associatlon, XXV 111, 1972.
+~ National Board of Fire Underwriters, "Standard Schedule for <-trading Cities and Towns
+of the U.S. with Reference to their Fire Defenses and Physical Conditions," New York. 19Sf>.
+a H, Huntley, ..Emergency Hea IIh Services for the Nation," Public Healtb Reports, LXXXV.
+No.6 (June, 1970).
+101
+
+--- PAGE 2 ---
+102
+PAPI" O. TNI IIGIONAL ICIINCI A.SOCIATlON, YOLUMI THIItTY.TWO
+Problern.v":"
+This problem identifies the minimal number and
+the location of
+facilities, which ensures that no demand point will be farther than the maximal service
+distance from a facility.
+Ry solving the location set covering problem over a range
+of values of distance, it is possible to develop a cost-effectiveness curve from the pairs
+of numbers (maximal service distance S, minimum number of facilities to cover).
+The number of facilities is used in the location set covering problem as the
+only cost factor which enters the decision process.
+There exists evidence that
+isolating the number of facilities as the most significant cost parameter may be
+valid in many real world formulations,
+Specifically, if unit costs are independent
+of site and number of demand points covered, the use of number of facilities is a
+correct indicator of cost.
+Examination of the cost-effectiveness curve reveals that for a given number of
+facilities there
+may be many location solutions which fulfill the requirement of
+coverage.
+For a desired level of expenditure then (e.g., fixed number of facilities),
+nne mily wish to dctcrrninc the solution with lhe smallcsl maxirnaI service .1 is-
+ranee.":":
+This point on the curve is identified by Minieka!" as the left-most
+corner point of the curve for a stated number of facilities.
+It could happen that the distance value obtained in this manner is much larger
+than the desired distance S.
+If it is, the decision maker may shift his aucntion to
+concern with the total population covered within S.
+Having realized that his
+rcsources (facilities) arc iIlSU fficic nt to achieve total coverage within his distance
+goal, the decision maker may seck to cover as many as possible within S using
+those limited resources.
+That is, facing the reality of an insufficient number of
+facilities, he may relinquish his goal or total coverage within S and attempt instead
+to locate the facilities in such a way that as fcw people as possible lie outside the
+desired service distance.
+What is being suggested is a third surrogate for the
+utility of a location pattern
+the population covered within some desirable dis-
+tance.
+The following problem may be stated:
+Maximize coverage (population covered) within a desired service distance S by
+locating a fixed number of facilities.
+We will designate this problem as the Maximal Covering Location Problem
+(MCLP).
+• Turegas lind ReVelle, op. rit., p. I.
+• C. Toregas, C. ReVelle, R. Swain, and L. Bergman, "The Locution of l-mcrgcncy Service
+Facilities," Operations Research, XIX, No,S (October, 1971).
+• C. Torcgas and {'. ReVelle, "Binary Logic Solutions 10 a Class of Location Problems."
+G,'ogrol'hi",,/ Analysis, V, No.2 (April, 1973),
+1 S. Hakimi, "Optimum Loca lion of Switching Centers and the Ahxolute Centers and Med ia11';
+of a Graph," Opcrutlons Research, X II (1%4), p. 450,
+~ M. Rosenthal and S. Smith, "The M-Center Problem," Operations Research Society of
+America, 1967 National Meeting, New York, N.Y,
+• E. Minieka, '·The M·('enler Problem," SIAM
+Rf'~/'·H',
+XII. No, I (January, 1970).
+I. Ibid,
+
+--- PAGE 3 ---
+CHUICH, IIVILLI.
+MAXIMAL COVIIING LOCATION PIO.LlM
+103
+1\ trade-off curve may he developed here as well showing the maximum
+possible coverage within the desired distance S for various levels of expend iture
+(that is. for various numbers of faciiiIics).
+Such a curve can he developed by
+solving the maximal covering location problem for a fixed S over a range of number
+of facilities.
+The corresponding pairs of (number of facilities. maximal popula-
+tion covered) creates the desired curve.
+For instance, five facilities may be positioned
+to achieve coverage of 90 percent of the popular ion. hut ten facilities may be
+required for JOO percent coverage.
+The decision maker may view the required
+additional funds as money which could be spent in other beneficial ways than
+coverage within the desirable distance.
+Although the decision maker may focus his interest on covering as many as
+possible within the desired service distance S. he may also he concerned with the
+qua Iity of servicc aITorded people not covered wiIhin thal distance.
+In fact. there
+may be an undesirable distance 10 facilities. a distance standard. beyond which no
+one should be.
+In short. the decision maker may want to cover the maximum
+popuIation possiblc within the desira ble distanee hut enstlre at the same lime that
+no one is farther than a distance T(T > S) to his closest facility.
+Insistence un
+total coverage within T may be included in order 10 provide some degree of equity
+to those not served within the shorter and more desirable service distance S.
+The
+closer T can come to the desirable distance S, the fairer the solution is to the
+people not covered within S.
+The following problem may be stated:
+Locate
+a fixed number of facilities in order to
+maxrrruze the population
+covered within a service distance S, while maintaining mandatory coverage
+within a distance of T(T > S).
+This problem shall be designated as the maximal covering location problem with
+mandatory closeness constraints.
+MATHEMATICAL PORMULATION Of THI
+MAXIMAL COVERING LOCATiON PROBLEM
+The
+maximal
+covering location
+problem
+seeks the
+maximum
+population
+which can be served within a stated
+service distance or time given a limited
+number of facilities.
+Defined on a network of nodes and arcs. a mathematical
+formulation of this problem can be stated as follows:
+L
+Maximize
+S.T.
+Xj =
+(0, l)
+y, =
+(0, I)
+for all i E I
+for all} E J
+for all i E I
+( I )
+(2)
+(3)
+(4)
+
+--- PAGE 4 ---
+104
+,.1.,.1., O' THI R.OIONAl SCIINC. ASSOCIATION, VOlUMI THIRTY·TWO
+where
+J =
+denotes the set of demand nodes;
+1 -
+denotes the set of tucility sites;
+S
+the distance beyond which a demand point is considered "uncovered"
+(the value of S can be chosen differently for each demand point if
+desired);
+d;i
+~-
+the shortest distance from node i to node i.
+x . =... { I if a facility is allocated to site j
+J
+0 otherwise;
+N, '-'" {j E lld;j < S);
+Qi·'"' population to be served at demand node l;
+p -
+the number of facilities to be located.
+N; is the set of facility sites eligible to provide "cover" to demand point i.
+A
+demand node is "covered" when the closest facility to that node is at a distance
+less than or equal to S.
+A demand node is "uncovered" when the closest facility
+to that node is at a distance greater than S.
+The objective is to maximize the number of people served or "covered" within
+the desired service distance.
+Constraints of type (I) allow y; to equal
+I only
+when one or more facilities are established at sites in the set N i (that is, one or
+more Iacilities arc located within
+S distance units of demand point i).
+The
+number of facilities allocated is restricted to equal p in constraint (2).
+The solu-
+tion 10 this problem specifies not only the largest amount of population that can
+he covered but the p facilities that achieve this maximal coverage.
+An equivalent formulation of the maximum covering location problem can be
+derived by substituting 1- ji, -- )'i where
+. =
+{ 1 if demand node i is not covered by a facility within S distance
+ji.
+0 otherwise.
+Constraints of type (I) can then be written as
+i e J
+which is equivalent to
+i E I.
+This inequality implies that either
+L.; X; > I
+jl
+:T'Ii
+or
+Stated verbally, either one or more facilities are built within S units of demand
+point i, or demand i is uncovered and .vi ·
+l.
+After variable substitution, the
+objective can be written as
+Maximize
+(L.; 0;
+L.;- OiYi) .
+t.",,: 1
+~ .... J
+
+--- PAGE 5 ---
+CHUICH, .IVILLI,
+MAXIMAL COVIIING LOCATION PIO.L1M
+105
+Note that the first
+sum
+is a
+known constant.
+Since the maximization of a
+negative quantity is equivalent to a minimization of the positive quantity, the
+objective function can be simplified to
+Minimize
+This objective can be interpreted as minimizing the number of people that will
+not be served within the maximal service distance.
+The complete problem devel-
+oped by variable substitution is:
+II.
+Minimize
+S.T.
+L: x,
+'.c p
+i\:,f
+x,
+- (0, I)
+.Pi ~ (0. I)
+for all i F I
+for aUi E J
+for all i E I .
+(5)
+(6)
+(7)
+(R)
+This problem seeks to minimize the population left uncovered if p facilities are to
+be located on a network.
+The formulations are equivalent since one can be transformed mathematically
+into the other by the variable substitution.
+The latter formulation was utilized
+in solving this problem with linear programming.
+The maximal covering location
+problem has been solved optimally hy linear programming and heuristically by
+several methods.
+SOLUTiON TECHNIQUES
+Heurlltlc Approachell
+The first heuristic considered is called the Greedy Adding (GA) Algorithm.
+In order to achieve a maximal cover for {' facilities under a given service d istancc,
+the algorithm starts with an empty solution set and then adds to this set one at a
+time the best facility
+sites.
+The GA algorithm picks for the first facility that
+site which covers the most of the total population.
+For the second facility, Gi\
+picks the site that covers the most of the population not covered by the first
+facility.
+Then, for the third facility, GA picks the site that covers the most of the
+population not covered by the first and second facilities.
+This process is con-
+tinued until either p facilities have been selected or all the population is covered.
+Details of the algorithm are given in Church."
+When sol" ing for
+the p-facility solution, the G i\
+algorithm automal ically
+calculates maximal cover values for the one- to p-facility problems.
+It should he
+noted here than the one-facility maximal covering solution obtained hy the GA
+1L R. Church, "Synthesis of II Class of Public Facilities Location Models,"
+Ph,D,
+thesis
+(The John, Hopkins University, Baltimore, Md., ]'174).
+
+--- PAGE 6 ---
+106
+PAP.IS O' THI IIOIONAL SCIINCI ASSOCIATION, YOLUMI THIITY.TWO
+algorithm is optimal, for the one-facility solution is by definition the site which
+covers the most of the total
+population,
+However, for solutions where p is
+greater than I, optimality is not guaranteed.
+It is important to note that the GA algorithm never removes facility sites from
+the solution set.
+Therefore, it is possible that a facility site added to the solution
+set in the early iterations of the algorithm may not be justified later in the algorithm
+due to subsequent facility site assignments.
+The presence of a "no longer justified"
+site in the solution set would imply nonoptimality,
+The GA algorithm, then,
+could be improved by including a technique that would reduce the probability of
+maintaining "no longer justified" sites in the solution set.
+The second heuristic which builds on the first is designated as the Greedy
+Adding with Substitution (GAS) Algorithm,
+The GAS algorithm determines new
+facility
+1\)\;aliulI~
+at euch iteration just as the Greedy Adding Algorithm did, but
+in addit ion, seeks 10 improve the solution al each iteration by trying to replace
+each facility one at a time with a facility at another "free" site.
+If improvement is
+possible, the facility site chosen to replace a particular facility is the one which
+gives the greatest improvement in the objective.
+The GAS algorithm is outlined
+in Church."
+The GAS algorithm, like the GA algorithm, automatically calculates maximal
+coverage for problems with one, two, .,. to p facilities.
+Again. however, global
+optimality is not guaranteed.
+The method of trying to replace one at a time the facilities in the solution in
+an effort to improve coverage is similar in concept to the A·optimum method
+introd uced by Shen l.in in solving the tra vcling salesrnan problem. I ~
+In apply ing
+the A-optimum concept to the maximal covering location problem, one can state
+that a maximal covering solution is A-optimal if it is impossible to obtain a solu-
+tion with greater cover by replacing any A of its facilities by any other srr (If) facility
+sites.
+Using this definition, GAS is classified as a l-optirnurn algorithm.
+Conceptually, the GAS algorithm is similar to the Ignizio heuristic"
+The
+difference is that GAS replaces any facility in Ihe solution set by another facility
+if resultant coverage increases, whereas the lgnizio heuristic replaces only the
+facility sites which contribute less to the total coverage than the contribution
+made by the last added facility.
+The A·optimum method applied to a random
+start solution or heuristically derived
+solution has been used
+by lgnizio and
+Harnot t to solve the Iocat ion set covering solution. 10
+The Ignizio heuristic has
+-------- -----------
+" 'hid.
+" S, Lin, "Computer Solutions of the Traveling Salesman Problem,"
+The R('I! Sy,I""tIJ Trchnica!
+Journal, Xl.l V (Decemher, t9(,5).
+l< J, P, lgnizto ami R. E. Shannon, "Heuristic Prugrumming Algorithm for Warehouse Loca-
+tion," Atu: Transactions, II, No, 4 (December, J970).
+11 J, 1'. Ignizio and R. M. Harnett, "Heuristically Aided
+Set-covering Algorithms," Depart-
+ment or Industrial Engineering, University or Alabama at Huntsville, 1972.
+
+--- PAGE 7 ---
+CMUICM, I.VILLI,
+MAXIMAL COVEIINO LOCATION PIIO.LlM
+107
+been utilized by Case and White" to solve a problem related to the maximal
+covering problem.
+Case and White sought the maximum number of demand points rather than the
+maximal population which could be covered with a stated number of facilities.
+Their problem is a subproblem to the maximal covering problem with a.:
+I for
+all demand points.
+Like the Ignizio heuristic, GAS allocates facilities to sites one
+at a time in a steepest ascent manner and employs a subroutine which replaces
+facilities in the solution which are no longer justified, due to subsequent facility
+assignments.
+From a more general viewpoint, the GAS and
+Ignizio heuristics
+resemble a warehouse location algorithm developed by Kuehn and Hamburger."
+LInear Programming
+Linear programming may also he applied to the maximal covering location
+problem and will obtain globally optimal solutions.
+All that is necessary is to
+restrict the variables Xj and Yi in Problem II to be nonnegative instead of zero or
+one.
+In an optimal linear programming solution to this problem, the variable Xi
+will never be greater than one (unless total coverage were achieved).
+If some x,
+were greater than one at optimality it could he reduced to one without violating any
+constraint (5).
+Further, the reduction could he applied toward increasing some
+other x, within the constraint that total facilities equal p (6).
+This will allow
+some y; to he decreased leading to a decrease in the objective.
+This contradicts
+the assumption of optimality.
+Since the objective function keeps each variable J; as small as possible and
+because it is never necessary for jii to be greater than one in order to satisfy con-
+straints (5), .Vi will never be greater than one in an optimal linear programming
+solution.
+Since X; will never he greater than one unless total coverage is achieved.
+the linear program will terminate with an optimal solution where 0 < x; ::;: I for
+all j E J and 0 .:s: "v; .:s: 1 for all i E I.
+If linear programming is applied
+and
+total coverage is nor
+possible,
+the
+optimal solution will have either:
+Case I:
+All x..J; - (0, I), called an "all-integer answer";
+Case 2:
+Some x/s fractional, called a "fractional answer."
+If the linear program terminates with all
+X; and .Pi ~ (0. I), the
+optimal
+solution to the maximal covering location problem has been determined.
+If the
+linear program terminates as Case 2, the optimal solution given is not feasible to
+the zero-one problem.
+More work will be necessary to obtain an optimal zero-one
+,. J. White and K. Case. "On Covering Problems and the Central Facilities Location Prob-
+lem," unpublished
+paper,
+Virginia Polytechnic Institute and Stale University,
+Ulal:kshurg. Va.,
+197.1.
+17 A. Kuehn and N, Hamburger, "A Heuristic Approach for Locating Warehouses." Ml/II<IK"-
+ment Science, X (19631, p. 643.
+
+--- PAGE 8 ---
+108
+PAPIU O' THI RIDIONAL SCIINCI ASSOCIATION, VOLUMI THIRTY.TWO
+solution.
+The solution value does, however, make explicit the lower bound on
+the objective function.
+The Mathematical Programming System (MPS) on the 10M 360 Model 91
+computer was used to obtain optimal linear programming solutions to maximal
+covering problems.
+The
+problems were stated as minimizations of population
+uncovered.
+In order to solve the problem, a Fortran IV program was developed
+to write the problem 011 a disc tile.
+This disc file was developed in such a manner
+that the MPS system could access the problem file and perform the necessary linear
+programming algorithm.
+When the solution for more than one number of facilities is desired for a
+given network and a stated service distance S, postopti mal routines of the MrS
+system were used.
+For example, suppose that the desired range in the number of
+facilities was p
+I to P -
+10.
+The problem file was set up for the linear program
+with p =
+I.
+After the MPS system obtained an optimal solution for this value
+of p, the option for parameterization of the right-hand side was used to obtain
+solutions for p
+- 2 to P =
+10.
+The cost of computing each additional solution
+(p ~ 2 to P
+10) is only a small increment over that for the first solution (p =
+I).
+Re.olvlng FraCTIonal SolutIon. to the Linear Program
+Our computational experience is that almost HO percent of the time the linear
+programming solution is all zero-one.
+Only approximately 20 percent of the
+time it is necessary to resolve fractional problems.
+Two different techniques, a
+method of inspection and the method of Branch and Round. have been used to
+obtain all integer solutions when the linear program terminates fractional.
+The
+first method shows that at times it is possible to determine an all-integer optimal
+solution to a p-facility problem directly from the fractional p-facility solution and
+from an optimal all-integer (p -
+I)-facility solution.
+The explanation of such a
+possibility and the ease with which the fractional resolution can be made can be
+hest described hy an actual example.
+Consider the following information:
+The maximal covering problem was solved over the range p
+I to p
+I)
+for a 55-node network
+by the
+MrS system.
+The solutions were all
+zero-one except for the solutions at p -
+8 and J' ~ 9.
+The total popula-
+tion
+of
+nodes
+on
+the
+network
+is
+640.
+The
+seven-facility
+solution
+covers all hut two nodes; namely, demand node 1\ and demand node R.
+The poulation at A is five and the population at B is two.
+The smallest
+population of any node is two.
+Each demand node is a possible facility
+site.
+The
+population
+covered
+hy
+the
+opt imal
+but
+fract ional
+linear
+programming solution with p ~ 8 was 639.
+The problem, then. is 10 determine, if possible, Ihe optimal all-integer solutions for
+p ~ Hand p -
+I) using only the above informauon.
+In order ttl do this the
+following two observations are important:
+I)
+Since the optimal seven-facility solution covers all but A and B, the seven-
+
+--- PAGE 9 ---
+CHURCH, ItIVILLI.
+MAXIMAL COVlltlNG LOCATION ",OILiM
+109
+facility solution covers 633 (i.e., 640 -- 5 ~ 2 -- 633).
+2)
+Either the optimal all-integer eight-facility solution will totally cover, or
+given that it docs not, it can cover at most all the population except the
+smallest
+node
+population.
+This
+means
+that either the optimal eight-
+facility solut ion will cover 640 or at most 638.
+Since the optimal p =
+8 linear program covers 639, the optimal all-integer p -- 8
+solution cannot cover.
+Thus, observation (2) shows that the all-integer optimal
+answer can cover at most 63!L
+By adding node 1\ to the seven-facility solution,
+an eight-facility solution set is formed where coverage is 638.
+Since this is the
+best an eight-facility solution can possibly cover, this solution must be optimal.
+Since the eight-facility solution cannot totally cover, a nine-facility solution that
+can totally cover would indeed he optimal.
+Such a solution is created by adding
+nodes A and B to the seven-facility solution.
+Thus, the information provided in
+a (p -
+l j-facility solution may be useful in determining an all-integer ,,-facility
+solution, when such is not provided by linear programming.
+The method of Hranch and Round I~
+was applied to fractional linear program-
+ming solutions which did not yield to the method of inspection.
+By branching on a
+fractional variable, i.e., by setting either x ,
+I or x,
+. 0, two more linear pro-
+gramming problems arc created.
+If the linear programming solution to each of
+these two problems has all x, -
+(0, I), the solution that has the smaller value of
+the objective function is optimal.
+If the solution to the problem with the smaller
+value of the objective is fractional, additional branching and computations may
+be required.
+PERPORMANCE OP THI ALGORITHMS
+Two test networks were used to illustrate the value of the maximal covering
+location approach as well as to evaluate the performance of the two heuristics
+and the optimal linear programming approach.
+The first network is a 30-node
+problem designed hy Rojeski and
+Revelle."
+The second network contains 55
+nodes and was described
+by Swain."
+Each network ensures randomness and
+feasibility of the internode distances for geogra phic interpretation.
+It is assumed
+that each demand node is a possible facility site.
+The optimal linear programming approach has been applied to many maximal
+covering location problems defined on the 55-node network used by Swain.
+In
+obtaining all-integer optimal solutions, fractional linear programming solutions
+were resolved hy first attempting to use the method of inspection described earlier.
+II II. M. Wagner, Principlrs o] Operations Rrscarch with Applications to Munagerial Decisions
+(Englewood C1ilT." N.J.: Prentice-Hall, 1969),
+"
+P. Rojeski and C
+ReVelle, "Central Fa<:ililies Location under an investment Construint,"
+Geogruphlml Analysis, II, No.4 (1970).
+•• R, Swain, "A Decomposition Algorithm for a Class of Facility Locution Aigcrithms," Ph.D.
+thesis (Cornell I)niversily, Ithaca, N.Y., 1971).
+
+--- PAGE 10 ---
+...e
+• Includes 19.18 seconds for four additional solutions obtained by Branch and Bound, none of which preserved a basis set for
+restart.
+.. Includes 1,75 seconds for one additional solution obtained b)' a single branching.
+10,00
+I to 9
+12.00
+I to 1
+15.00
+I to 5
+19.00
+I to 3
+20.00
+1 to 3
+Total number
+21
+of Solutions
+TABLE I
+COMPARISO" Of AI.-GORITH"tS
+Problem Data from 55-node !'et\\'ork, Ref. 19
+LINEAR PROGRAMMl"G
+o......
+:I:...
+:to.....o
+!2
+~...o
+.z
+<o..c
+I:......
+:I:;;...-e
+.:..
+:Eo
+..
+:to.....
+'"...
+'"...os
+Z
+:to.....
+n
+iiizn...
+14
+GAS ALGOll-lTH'"
+I8
+C A ALGORITH'"
+Non-
+I Total Est.
+1'0n-
+Total Est.
+Optimal
+Execution
+I
+Optimal
+I Execution
+Soluions
+(values of
+Time (sec)
+Solutions
+Time (sec)
+n
+'i (IBM 1094> (values of p)
+(l BM 1094>
+4,5:,6.
+10,8
+I
+4, 5.7,8
+I
+23,6
+7,8.,9
+Z, 3, 4
+4.1
+1,3,4. 5
+18,:
+5, f
+6, 1
+2, 3.4, 5
+6.0
+3,4.5
+13.5
+2.3
+1-8
+2
+8.1
+2:
+3.6
+0
+7.8
+Total MPS
+Time (secj
+IBM360'91
+1.38
+3,4
+29.35·
+6.33
+3
+7.19"
+4.25
+3
+5
+3
+8, 9
+! Fractions i Branch and \
+Resolved by I
+Bound
+I
+(values of
+J'eeded
+p)
+(values of p)I
+6
+5
+3
+8, 9
+3,4
+Fractional
+Solutions
+(values of
+p)
+Range of
+pand
+Number of
+Solutions
+Value
+of S
+
+--- PAGE 11 ---
+(HUICH. IIVILLI.
+MAXIMAL COVIllNO LOCATION nOILiM
+111
+If this
+W;lS not possible, the method of Branch and Bound was used.
+Table I compares the performance of the linear programming approach and
+the heuristics in solving 27 maximal covering location problems defined
+011 the
+55-node net work.
+For each service distance S, maximal covering solutions for a
+range of p values were obtained using the MPS system with the parameterization
+option.
+Almost 80 percent of the linear programs terminated all-integer optimal.
+Hod nearly 90 percent of the total problems were solved by the combination of
+linear programming and the method of inspection.
+Only 10 percent of the time
+was Branch and Bound necessary to resolve fractional problems.
+In every case of
+application of the Branch and Hound algorithm, all that was necessary to obtain
+an all-integer optimum was the solution of several linear programs.
+Computation
+times arc given for the MPS execution time only.
+The GA algorithm was performed by a Fortran IV program on the IBM 7094
+system.
+Computation time includes the set-up of the particular maximal covering
+location problem from basic data as well as the execution time of the algorithm.
+From the table, it can be seen that the Gt\. algorithm is nonoptimal more than
+60 percent of the time.
+The GAS algorithm was also performed by a Fortran IV
+program on the IBM 7094 system.
+Computation time includes the development
+of problem information from basic data as well as execution time of the algorithm.
+The GAS algorithm was nonoptimal almost 50 percent of the time.
+For each
+heuristic solution
+generated,
+the coverage
+was
+no
+lower
+than
+90 percent of the corresponding optimal coverage value.
+In other words, the
+heuristics applied to the 55-node network attained close to optimal solutions,
+if not the optimal solutions.
+One reason for this good performance is the fact
+that the 55-node network contains a very dense area that can generally be covered
+by one facility.
+This tends to make the first facility's coverage so large that it
+always remains the most significant portion of any solution.
+The large significance of
+the first facility tends to outweigh any differences in coverage due to added facil itics
+which arc either heuristically or optimally determined.
+While it is true that the
+heuristics have done well in this problem, it is also true that the only reason we
+can assess their quality is that we have an efficiently derived optimal solution to
+which they may be compared.
+Enumeration to determine optimal solutions for
+comparison to heuristic solutions would generally be out of the question because
+of the computer time it would consume.
+For any
+desired value of S (maximal service distance) and p value
+(the
+number of facilities to he located), a maximal covering location problem can be
+defined.
+By holding S fixed, and solving over a range of p values, one can create
+a cost-effectiveness curve which outlines the change in effectiveness (in terms of
+population covered) as the system cost is altered by increasing or decreasing the
+number of available facilities.
+Figure I shows the cost-effectiveness curve for the maximal covering location
+problem defined on the 3D-node problem with the maximal service distance fixed
+
+--- PAGE 12 ---
+112
+PAP••S O' fNI RlGIONAL SCIINCI ASSOCIATION, VOLUM. TNIUY.TWO
+II
+12
+at S -
+2.0.
+This curve represents optimal maximal covering solutions obtained
+hy the M PS syste m with the pa rameterization option.
+The increase innumber of
+people covered by the addition of one facility decreases as the total number of
+facilities increases.
+The optimal solution for p =
+12 also represents an optimal
+solution to the location set covering problem defined for S '" 2.0.
+This is true,
+since p 00 12 represents the lowest p value for which a 100 percent coverage is
+attainable.
+o
+1000/.r--------------
+o
+NZ
+~Q
+90%
+~
+z<l
+-...JeO,..
+:I::::l
+~Q.i a
+700/.
+0..
+O...J
+W <l 60%
+a:~
+W o
+>~
+o
+~O%
+Uu..
+zO
+Ow 400/.
+-C)
+!;i~
+...J z
+300/.
+:::l .....
+Q.u
+o a:: 20%
+Q.w
+...JQ.
+<l VI
+100/.
+~<l
+)(
+~
+0
+0"----'-------'-2------'-3-4
+5
+(;
+7
+8
+9
+10
+NUMBER OF FACILITIES USED
+..... IGlIK~
+I,
+A Co.n-EFHC1IVf.NESS CURVE
+D~KIVEtJ
+FOR S
+,2.()() (DATA FOR 30-NOlll::
+PROI1!,F.M FROM
+RoJb~KI
+ANI) REVELLE, RH', 19)
+An important choice for the decision maker is deciding what level of expenditure
+(how many facilities can be used) can be justified by the resultant coverage.
+For
+example, even if there are enough funds to build twelve facilities and cover 100
+percent, the eight-facility solution and 90 percent coverage may be very acceptable.
+Further, the reduced location cost may allow funds to be spent upgrading other
+levels of service not related to location.
+Thus, the cost-effectiveness curve yields
+much
+valuable
+information
+10 the decision
+maker.
+Such information
+would
+seem beneficial to the formulation or logical and sound location plans,
+MAXIMAL COVERING WITH
+MANDATORY CLOSENESS CONSTRAINTS
+Even though a decision maker might seek 10 maximize coverage within some
+desirable
+maximal service distance,
+there
+may be
+an
+undesirable distance to
+
+--- PAGE 13 ---
+CHUACH, I.VILLI.
+MAXIMAL COV'IIN. LOCATION 'IOILIM
+113
+facilities
+beyond
+which
+no
+demand
+should
+he.
+Insistence on
+some
+type
+of
+mandatory closeness was introduced as a mechanism for achieving some form
+of fairness for those not served within the shorter and more desirable service
+distance S.
+By including this mandatory closeness concept in the maximal covering
+location problem, the following location problem was postulated:
+Locate p facilities at possible sites on the network to maximize the population
+that can he covered within a given service distance 5 while at the same time
+ensuring that the users at each point of demand will find a facility no more
+than T distance (T > S) away.
+A mathematical formulation of this problem is very similar to Problem I.
+The
+objective function and the constraint on total number of facilities are identical
+with those of the earlier formulation.
+There are now,
+however, two types of
+covering constraints, namely:
+and
+where
+for all j E I
+for all j E I
+(9)
+( 10)
+N; = UId;j :s; 5}
+M, "-" Uld;; s: T}
+and all other notation is as previously defined.
+Note that since T> S. M; contains the set N,.
+This is the maximal covering
+location problem with mandatory closeness constraints.
+The mandatory closeness
+constraints (10) ensure for each demand point i that there must he at least one
+facility within the distance T.
+Unlike the problem without mandatory closeness,
+this problem has feasible solutions only for certain integer values of p, the number
+of facilities.
+The lower limit of the range of values of p is the minimal number of
+facilities necessary to cover all demand points within T distance units.
+The same
+variable substitution may be used to transform this to a problem which minimizes
+population not covered within S while maintaining complete coverage within T.
+Suppose that for a certain problem the smallest number of facilities necessary
+for total coverage within T is p".
+A p"-facility solution that does cover all within
+T is an optimal location set covering solution since p" is the smallest number of
+facilities necessary to cover all within T.
+There could well be several different
+p"-facility solutions that maintain total coverage of everyone within T distance units.
+One could seek to maximize coverage within S (where S < T) while maintaining
+total coverage within T by relocating the p'" facilities.
+This implies that we would
+be picking among the alternative optima to the location set covering problem the
+solution that achieves the largest coverage within the smaller distance S.
+The
+
+--- PAGE 14 ---
+114
+PAPIRS O. THI RIGIONAL SCIINCI ASSOCIATION, VOLUMI THIRTY.TWO
+use of maximal covering with mandatory closeness constraints, then, can be con-
+sidered a technique for obtaining more desirable solutions than the location set
+covering problem.
+The new solutions will continue to cover the entire population
+and are desirable in the sense that they provide greater population coverage within
+an even closer and more desirable distance.
+The maximal covering location problem with mandatory closeness constraints
+has been solved by applying linear programming to the minimizing form of the
+problem, that is, by minimizing the number not covered within S While maintaining
+complete coverage within T.
+The problem was solved using the MPS 360 system on
+the IBM 360 Model 91 computer.
+Again, if more than one p-facility solution
+was desired, the MPS parameterization option was used.
+Essentially, the problem
+with mandatory closeness constraints is set up with the number of facilities equal to
+the smallest number of facilities necessary to cover all demand within T distance
+units; the
+parameterization option
+was
+used
+to develop optimal answers for
+increasing values of fl.
+It is not necessary to allow p to be greater than the number
+of facilities needed to cover all demand nodes within the smaller distance S.
+In
+limiled computa Iiona I expcrience, eight out of eleven
+Iinear pro grams
+terminated all-integer, and hence optimal to the zero-one problem.
+All fractional
+linear programming solutions were able to be resolved hy the method of inspection.
+A heuristic approach to solve the problem is also possible."
+Suppose thai a decision maker is interested in covering all demand within a
+service distance of 15.
+Let us say that the 55-node network represents his par-
+ticular problem.
+His goal, we will assume, is to achieve complete cowmgf' with
+the fewest
+possible facilities.
+The decision maker is implicitly structuring the
+location set covering problem" for S --- IS.
+This is the minimum number of
+facilities
+which
+accomplishes coverage
+within
+a
+specified maximum
+distance.
+Figure 2 gives a location set covering solution for a service distance of S ._- 15 on
+the 55-node network.
+In this case five facilities arc required to cover all nodes
+within a distance of 15.
+The circled nodes on the graph given in Figure 2 represent the live sites chosen
+to house facilit ies.
+The nodes of the graph are partitioned into sets, each node
+being assigned to its closest facility.
+In Figure 2 there are two types of partitions:
+those enclosed by solid lines and those indicated hy dashed lines.
+The solid line
+partitions indicate which
+nodes arc covered within S -
+IS.
+The
+dashed line
+partitions
+denote
+which
+nodes
+are
+covered
+within
+.S·
+10.
+The
+reason
+for
+showing which nodes are covered by this solution within a distance of 10 will become
+clear momentarily.
+For example, node 42 is in the solid line partition surrounding
+H facility located at node 25.
+This means that the closest facility to node 42 is
+located at node 25 and that the distance from node 42 to that facility is less than
+15.
+Furthermore, node 42 is not in the dashed line partition for the facility
+11 Church, op. cit.
+.. Toregas and Revelle, up. cit.
+
+--- PAGE 15 ---
+CHUICH, IIVILLI,
+MAXIMAL COYIIING LOCATION PIO.LlM
+115
+SOUD liNt P~RTITIUNS
+UtNUl E COVfR~OIl
+WIIIIIN,.
+,,; "ASItU> I.INE PAUllIDN
+DtNDU UWI':RAUE WI'IIIIN
+~. '. 10,
+fOriTI.ATION INSIDn 10-,,---
+,;101
+POPULATloN oUTSIDIl 1GBU r INsme II .
+,,~l'
+PO!:!!L~TIU~-')Umll!l
+•.JJ
+D
+FIGURE 2.
+A LOCATION SET COV[RINU SOLUTION FOR S
+15
+(DATA fROM SWAIN, REf. 20)
+located at node 25, indicating that node 42 lies at a distance greater than 10 from
+its closest facility, node 25.
+Figure 2 also shows, for this particular location set
+covering solution, that 201 of the total population are covered within a distance of
+10; the rest of the population, 439, is located between 10 and the maximal service
+distance of 15.
+It was stated in the previous section that the maximal covering location prob-
+lem
+with
+mandatory
+closeness
+constraints could
+be used
+to choose among
+the alternative optima of the location set covering problem, the solution which
+achieves the best coverage for some more desirable "inner" distance.
+For example,
+by solving the maximal covering location problem with mandatory closeness con-
+straints with S =
+10 and T =
+IS, still using five facilities we could determine the
+solution that provides the best coverage within S =
+10 while maintaining com-
+
+--- PAGE 16 ---
+116
+..A..IRS O' THI IIGIONAL SCIINCI ASSOCIATION, VOLUMI THIITY.TWO
+I'I{aJIt~~.
+AN OI'TIMAI. SOUJTlON TO TIW
+MAXIMAL COVERING loCATION
+PROIll.EM WITH MANDATORY
+CI.OS~N~SS
+CONSTRAINTS
+(DATA I-ROM SWAIN,
+R~ ... 20)
+plete coverage within T =
+15.
+H is entirely possible that the decision maker may feel it desirable to cover as
+much population as possible within 10 if he can still provide complete coverage
+wit hin 15.
+After all, he appears to be giving up not hing.
+The maxi rnaI covering
+location problem with mandatory closeness constraints with S -
+10 and T = 15
+was solved for this network and the solution is presented in Figure 3.
+Essentially,
+Figure 3 depicts the alternative optimum of the location set covering problem for
+.\' -
+15 which covers the maximum population within 10.
+Notice that the coverage
+within 10 for this solution amounts to 354 out of 640.
+By the nature of the maximal
+covering problem with
+mandatory closeness constraints, it is possible to state
+that no more than 354 can be covered within 10 while maintaining complete coverage
+
+--- PAGE 17 ---
+CHUkCH, k.VILLI,
+MAXIMAL COV.kINO LOCATION "kOILiM
+117
+within IS, given no more than five facilities,
+The solution in Figure 3 is clearly
+a better solution than the one given in Figure 2, for the coverage within to is 75
+percent better than the solution given in Figure 2.
+Therefore, by using the maximal
+covering location problem with mandatory closeness constraints, it is possible to
+easily determine the most desirable location set covering solutions.
+In the above
+problem, the
+use or the maximal covering location approach with mandatory
+closeness constraints has provided substantial improvement over the original loca-
+tion set covering solution given in Figure 2.
+We know that it is impossible to cover more than 354 within 10 while
+maintaining co mplete coverage with in 15 using five facilities.
+Thus, it wou ld be futile
+to try to cover more than 354 within 10 unless either more facilities were allowed or
+the mandatory closeness constraints or 15 were relinquished.
+!II•
+FIG(J/l.E 4.
+AN OPTIMAl SOLlJTION TO 1'111; MAXIMAL COVERINO LoC"TION
+PROBLEM fOR S·
+10 (DATA nlOM SWAIN. REF. 20)
+
+--- PAGE 18 ---
+118
+',"liS O' THI IIGIOMAL SCIINCI ASSOCIATION, VOLUMI TNIRTY-TWO
+In the above example problem, it is, in fact. possible to achieve a very large
+"maxi mal cover" within S -
+lOusing live facilities if one relaxes the mandatory
+closeness constraint of IS.
+From the viewpoint of the decision maker, achieving
+maximal coverage by five facilities within a distance of 10 could be very desirable,
+if the resultant coverage within 10 is sufficiently improved from 354 and if the
+number of people outside of 15 is not excessive.
+Figure 4 gives
+a maximal covering solution for S =
+10.
+A node in the
+graph which is not covered within
+T =
+IS is not included in any partition.
+Notice that the population covered within S..,." 10 has reached 609 out of a total
+population of 640.
+In this case, only four nodes with a combined population of
+12 are at a distance greater than 15 from their closest facilities.
+In order to cover all demand nodes within 15, the amount covered within 10
+must decrease from 609, given by the maximal covering problem with S -
+10, tn
+at most 354 which value was given by the
+maximal covering problem with a
+mandatory closeness constraint of 15.
+This reduction of 255 in the population
+covered within 10 can he viewed as one of the costs of maintaining all nodes within
+a maximum distance of 15.
+That is, the mandatory closeness constraints ensured
+that a population totahng 11 out of 64(l (at four out of 55 nodes) found service
+within 15 distance units.
+At the same time. a population totaling 255 was forced
+outside the distance of 10.
+In summary. it has been shown that the maximal covering location problem
+and the maximal covering location problem with mandatory closeness constraints
+are powerful location techniques which build on and, in Iuct, supplant the location
+scl covering problem,
+The maximal covering location problem with mandatory
+closeness, furthermore. may be used to provide the most dcsira hlc (If the solutions
+to the location set covering problem.
+Jt is also easy to sec that "good" locationul
+decisions can be made by all three techniq ucs, hut enlightened use of the maximal
+covering location problems appears to lead to superior patterns of population
+coverage.
+The above example problems show that the additional
+information
+gained by using these two techniques in conjunction with the locat ion set covering
+approach can lead to better decision making with regard to public facility location,
