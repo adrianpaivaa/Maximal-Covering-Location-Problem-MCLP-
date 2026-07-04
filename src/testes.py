@@ -40,7 +40,7 @@ from src.auxiliares import (
 def experimento_tabela1(df_nos, mat_dist):
     """Reproduz a Tabela 1 do artigo."""
     print("\n" + "=" * 70)
-    print("EXPERIMENTO 1: Reprodução da Tabela 1 (Rede de 55 nós)")
+    print("EXPERIMENTO 1: Reprodução da Tabela 1 (55 nós)")
     print("=" * 70)
 
     populacoes = df_nos["population"].values
